@@ -28,7 +28,9 @@ DEBUG = True
 
 # Make sure to use your own hostname here, and/or use`127.0.0.1` for
 # localhost
-ALLOWED_HOSTS = ['127.0.0.1', '5e193fd6ed14495db7547c52ed80179c.vfs.cloud9.us-east-1.amazonaws.com']
+ALLOWED_HOSTS = ['127.0.0.1',
+                '5e193fd6ed14495db7547c52ed80179c.vfs.cloud9.us-east-1.amazonaws.com',
+                'django-todo-2.herokuapp.com']
 
 
 # Application definition
